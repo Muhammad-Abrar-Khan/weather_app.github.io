@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'League Spartan', sans-serif;
+}
+.main{
+    display: flex;
+}
+.left{
+    width: 25vw;
+    height: 100vh;
+    background-color: #1E213A;
+}
+.right{
+    width: 75vw;
+    height: 100vh;
+    background-color: #100E1D;
+}
+.topleft{
+    background-color: yellow;
+}
