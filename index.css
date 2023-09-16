@@ -3,7 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
-    font-family: 'League Spartan', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 .main{
     display: flex;
@@ -19,5 +19,69 @@
     background-color: #100E1D;
 }
 .topleft{
-    background-color: yellow;
+    height: 12vh;  
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.search{
+    background-color: #6E707A;
+    padding: 0.2rem 0.7rem;
+    height: 1.6rem ;
+    font-size: 0.8rem;    
+}
+.search:hover{
+    cursor: pointer;
+}
+.gps{
+    background-color: #6E707A;
+    height: 1.2rem;
+    width: 1.2rem;  
+    outline: 0.3rem solid #6E707A;  
+    border-radius: 50%;
+}
+.showweather{
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.clouds{
+    height: 7rem;
+    width: 7rem;
+}
+.currentlocation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    font-weight: bold;
+}
+.temp{
+    font-size: 2.7rem;
+}
+.f1{
+    font-size: 2rem;
+}
+.cent{
+    font-weight: normal;
+}
+.weathertype{
+    color: #A09FB1;
+}
+.current{
+    font-size: 0.7rem;
+    word-spacing: 0.2rem;
+    color: #A09FB1;
+    /* display: flex;
+    flex-direction: column; */
+}
+.location{
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+}
+.maplocation{
+    height: 0.8rem;
+    width: 0.8rem;  
 }
