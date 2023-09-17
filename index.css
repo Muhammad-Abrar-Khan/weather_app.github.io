@@ -24,21 +24,47 @@
     justify-content: space-around;
     align-items: center;
 }
-.search{
-    background-color: #6E707A;
-    padding: 0.2rem 0.7rem;
-    height: 1.6rem ;
-    font-size: 0.8rem;    
+.searchBox {
+    position: absolute;
+    top: 10%;
+    left: 12.5%;
+    transform: translate(-50%, -50%);
+    background: #2f3640;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
 }
-.search:hover{
-    cursor: pointer;
+
+.searchBox:hover .searchInput {
+    width: 250px;
 }
-.gps{
-    background-color: #6E707A;
-    height: 1.2rem;
-    width: 1.2rem;  
-    outline: 0.3rem solid #6E707A;  
+
+.searchButton {
+    color: white;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
+    background: #2f3640;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+}
+
+.searchInput {
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0 0 0 0.7rem;
+    color: white;
+    font-size: 16px;
+    transition: 0.4s;
+    width: 0px;
+}
+
+.searchicon {
+    height: 2rem;
+    width: 2rem;
 }
 .showweather{
     height: 40vh;
