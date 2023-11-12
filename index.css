@@ -80,12 +80,13 @@
 }
 .temp{
     font-size: 2.7rem;
+    color:white;
 }
 .f1{
     font-size: 2rem;
 }
 .cent{
-    font-weight: normal;
+    font-weight: bold;
 }
 .weathertype{
     color: #A09FB1;
